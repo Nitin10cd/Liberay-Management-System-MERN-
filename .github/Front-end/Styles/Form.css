@@ -1,0 +1,127 @@
+.body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to bottom right, #1a202c, #2d3748);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #e2e8f0;
+}
+
+.form-container {
+  background: #2d3748;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+}
+
+.form-container h2 {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  color: #edf2f7;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > div {
+  margin-bottom: 0.8rem;
+  text-align: left;
+}
+
+label {
+  font-size: 0.85rem;
+  color: #e2e8f0;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 0.9rem;
+  border: 1px solid #4a5568;
+  border-radius: 8px;
+  background: #1a202c;
+  color: #e2e8f0;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='password']:focus {
+  border-color: #5b67f1;
+  box-shadow: 0 0 5px rgba(91, 103, 241, 0.3);
+  outline: none;
+}
+
+input[type='radio'] {
+  width: 40px;
+  height: 18px;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+label > input[type='radio'] + span {
+  font-size: 0.8rem;
+  color: #e2e8f0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.error {
+  background: #7f1d1d;
+  color: #fefefe;
+  padding: 0.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+  border: 1px solid #d32f2f;
+}
+
+button {
+  background: linear-gradient(to right, #5b67f1, #6b46c1);
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(to right, #6b46c1, #5b67f1);
+  box-shadow: 0 4px 8px rgba(91, 103, 241, 0.3);
+}
+
+button:disabled {
+  background: #4a5568;
+  cursor: not-allowed;
+}
+
+p {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #a0aec0;
+}
+
+p a {
+  color: #5b67f1;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
