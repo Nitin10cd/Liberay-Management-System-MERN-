@@ -1,0 +1,126 @@
+.single-user-containerSingle {
+    padding: 1.5rem; 
+    border-radius: 15px;
+    max-width: 900px;
+    margin: 2rem auto;
+    color: #e2e8f0; 
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #2d3748;
+}
+
+.user-cardSingle {
+    margin-bottom: 1.5rem; 
+    background-color: #1a202c;  
+    padding: 1rem;  
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.user-cardSingle h4 {
+    font-size: 1.4rem;  
+    color: #edf2f7;  
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.user-cardSingle p {
+    font-size: 1rem;
+    margin: 0.4rem 0; 
+}
+
+.user-cardSingle p strong {
+    color: #3498db;
+}
+
+.action-buttonsSingle {
+    display: flex;
+    gap: 1rem; 
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.buttonSingle {
+    padding: 0.8rem 1.4rem;  
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.close-buttonSingle {
+    background-color: #3498db;
+}
+
+.close-buttonSingle:hover {
+    background-color: #2980b9;
+}
+
+.delete-buttonSingle {
+    background-color: #e74c3c;
+}
+
+.delete-buttonSingle:hover {
+    background-color: #c0392b;
+}
+
+.user-booksSingle {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background-color: #1a202c; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.user-booksSingle h2 {
+    text-align: center;
+    color: #edf2f7;  
+    margin-bottom: 1rem;  
+    font-size: 1.8rem;
+}
+
+.book-list-gridSingle {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.6rem; 
+}
+
+.book-cardSingle {
+    background-color: #2d3748; 
+    width: 220px;
+    height: 430px;
+    border: 1px solid #4a5568; 
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-cardSingle:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.book-imageSingle {
+    width: 220px;
+    height: 240px;
+}
+
+.book-infoSingle h3 {
+    font-size: 1.3rem;
+    color: #edf2f7; 
+}
+
+.book-infoSingle p {
+    color: #a0aec0;  
+    font-size: 0.95rem;
+}
+
+.book-infoSingle .buttonSingle {
+    background-color: #3498db;
+    width: 170px;
+}
+
+.book-infoSingle .buttonSingle:hover {
+    background-color: #2980b9;
+}
