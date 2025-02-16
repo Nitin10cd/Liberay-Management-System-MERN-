@@ -63,20 +63,6 @@ npm start
 
 ---
 
-## 📷 Screenshots
-
-<p align="center">
-  <img src="https://via.placeholder.com/600x300" alt="Library Dashboard">
-  <br>
-  <em>Library Dashboard</em>
-</p>
-
-<p align="center">
-  <img src="https://via.placeholder.com/600x300" alt="Book Issue Page">
-  <br>
-  <em>Book Issue Page</em>
-</p>
-
 ---
 
 ## 💡 Future Enhancements
@@ -102,8 +88,8 @@ This project is licensed under the MIT License.
 ## 🔗 Connect with Me
 
 <p align="center">
-<a href="https://www.linkedin.com/in/yourprofile/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin"></a>
-<a href="mailto:your.email@example.com" target="_blank"><img src="https://img.shields.io/badge/Email-Contact-red?style=flat&logo=gmail"></a>
+<a href="[https://www.linkedin.com/in/yourprofile/](https://www.linkedin.com/in/nitin-saxena-78a976294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin"></a>
+<a href="nsaxena@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-Contact-red?style=flat&logo=gmail"></a>
 </p>
 
 ---
